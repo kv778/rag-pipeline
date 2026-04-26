@@ -1,0 +1,46 @@
+# Python basics
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Environment variables (VERY important for API keys)
+.env
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Data files (optional - depends on your workflow)
+data/
+*.csv
+*.json
+
+# Vector databases / embeddings (RAG-specific)
+chroma_db/
+faiss_index/
+*.faiss
+*.pkl
+
+# Model/cache files
+.cache/
+models/
+*.bin
+
+# Temporary files
+*.tmp
+*.bak
